@@ -4,6 +4,7 @@ import website1 from "./img/website1.png";
 import website2 from "./img/website2.png";
 import website3 from "./img/website3.png";
 import website4 from "./img/website4.png";
+import youtube from "./img/youtube.jpg.png";
 export const products = [
   {
     id: 1,
@@ -12,27 +13,32 @@ export const products = [
   },
   {
     id: 2,
+    img: youtube,
+    link: "https://not-13949.firebaseapp.com/",
+  },
+  {
+    id: 3,
     img: reactlandingpage,
 
     link: "https://react-landing-page-a4370.web.app/",
   },
   {
-    id: 3,
+    id: 4,
     img: website1,
     link: "https://website-1-db90e.web.app/",
   },
   {
-    id: 4,
+    id: 5,
     img: website2,
     link: "https://website-2-da4d5.web.app/",
   },
   {
-    id: 5,
+    id: 6,
     img: website3,
     link: "https://website-3-2bb8a.web.app/",
   },
   {
-    id: 6,
+    id: 7,
     img: website4,
     link: "https://website-4-ecbac.web.app/",
   },
